@@ -1,0 +1,93 @@
+/* Navbar */
+    *,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url(red-night-sky-wallpaper-2560x1440_51.jpg);
+    }
+
+    .navbar-container {
+        background-color: 
+        rgb(110, 149, 233);
+        width: 100%;
+        height: 10vh;
+    }
+
+    .ul-navbar {
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .li-navbar {
+        list-style: none;
+        padding: 20px;
+        margin: 5px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .a-navbar {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+/* Navbar end */
+
+/* Content 1 */
+    .li-content {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-content {
+        text-decoration: none;
+    }
+
+    .p-content {
+        background-color: white;
+        font-size: 15px;
+        border-radius: 15px;
+        padding: 20px;
+        
+    }
+
+    .content-button {
+        background-color: rgb(138, 67, 204);
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 80px;
+        width: 150px;
+        box-shadow: 10px 10px 5px 0px black; -webkit-shadow-box: 10px 10px 5px 0px black ;
+        -moz-box-shadow: 10px 10px 5px 0px black
+        
+    }
+
+    .content-button:hover {
+        background-color: rgb(218, 112, 250);
+        transition: 0.3s ease-in-out;
+        animation-delay: 0.3s;
+        transform: scale(1.07);
+        border: 2px solid black;
+        
+        
+    }
+
+    
+
+/* Content 1 end */
